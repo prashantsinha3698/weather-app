@@ -1,0 +1,27 @@
+#suggestions {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  top: 100%;
+  left: 0;
+}
+.suggestion-item {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.suggestion-item:hover {
+  background-color: #f1f1f1;
+}
+#getLocation {
+  border: none;
+  background: none;
+  padding: 0;
+  margin-left: -1px; /* Adjusts the button to be inside the input */
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#location {
+  padding-right: 35px; /* Ensure there's space for the button */
+}
